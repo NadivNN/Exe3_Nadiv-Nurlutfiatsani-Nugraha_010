@@ -10,6 +10,7 @@ namespace Exercise3
     {
         /*creates Nodes for the circular nexted list*/
         public int rollNumber;
+        public int noMhs;
         public string name;
         public Node next;
     }
@@ -65,7 +66,7 @@ namespace Exercise3
             else
                 Console.WriteLine("\nThe first record in the list is:\n\n" + LAST.next.rollNumber + "    " + LAST.next.name);
         }
-        static void main(string[] args)
+        static void Main(string[] args)
         {
             CircularList obj = new CircularList();
             while (true)
