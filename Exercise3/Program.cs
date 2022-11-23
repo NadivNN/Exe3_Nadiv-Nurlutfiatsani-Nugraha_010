@@ -15,7 +15,13 @@ namespace Exercise3
     }
     class CircularList
     {
-    
+        Node LAST;
+
+        public CircularList()
+        {
+            LAST = null;
+        }
+
     }
 }
 
